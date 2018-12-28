@@ -1,5 +1,20 @@
 Vue CLI 需要 Node.js 8.9 或更高版本 (推荐 8.11.0+)
 
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+npm install -g yarn
+---------------------------------------------------------------
+npm install	                |     yarn
+
+npm install react --save	  |     yarn add react
+
+npm uninstall react --save  |   	yarn remove react
+
+npm install react --save-dev| 	  yarn add react --dev
+
+npm update --save	          |     yarn upgrade
+-------------------------------------------------------------------
+
 - 删除旧版本
 npm uninstall vue-cli -g
 
